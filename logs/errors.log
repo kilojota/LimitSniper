@@ -1,0 +1,166 @@
+INFO: 2021-12-30 14:43:52,051 *************************************************************************************
+INFO: 2021-12-30 14:43:52,051 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 14:43:52,051 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 14:43:52,052 *************************************************************************************
+INFO: 2021-12-30 14:43:58,766 Current $LIMIT Tokens Staked = 0.0
+INFO: 2021-12-30 14:43:59,226 Current $LIMIT Tokens Staked = 0.0
+INFO: 2021-12-30 14:43:59,226 You Need to Hold 100 $LIMIT tokens to use this bot!
+INFO: 2021-12-30 15:24:28,779 *************************************************************************************
+INFO: 2021-12-30 15:24:28,780 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:24:28,780 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:24:28,780 *************************************************************************************
+ERROR: 2021-12-30 15:24:33,380 'tokenA'
+Traceback (most recent call last):
+  File "sniper.py", line 597, in scan
+    if filter_contract['token'] == Web3.toChecksumAddress(token['ADDRESS']):
+  File "site-packages\web3\main.py", line 222, in toChecksumAddress
+  File "site-packages\eth_utils\address.py", line 110, in to_checksum_address
+  File "site-packages\eth_utils\address.py", line 63, in to_normalized_address
+ValueError: Unknown format 0xbdFe3fF5A9AE10234f8C1d879766930F2D82, attempted to normalize to 0xbdfe3ff5a9ae10234f8c1d879766930f2d82
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "sniper.py", line 889, in <module>
+    run()
+  File "sniper.py", line 885, in run
+    scan(tokens)
+  File "sniper.py", line 603, in scan
+    if filter_contract['tokenA'] == Web3.toChecksumAddress(token['ADDRESS']) or filter_contract['tokenB'] == Web3.toChecksumAddress(token['ADDRESS']):
+KeyError: 'tokenA'
+INFO: 2021-12-30 15:26:30,408 *************************************************************************************
+INFO: 2021-12-30 15:26:30,408 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:26:30,408 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:26:30,408 *************************************************************************************
+ERROR: 2021-12-30 15:26:32,589 'tokenA'
+Traceback (most recent call last):
+  File "sniper.py", line 597, in scan
+    if filter_contract['token'] == Web3.toChecksumAddress(token['ADDRESS']):
+  File "site-packages\web3\main.py", line 222, in toChecksumAddress
+  File "site-packages\eth_utils\address.py", line 110, in to_checksum_address
+  File "site-packages\eth_utils\address.py", line 63, in to_normalized_address
+ValueError: Unknown format 0xbdFe3fF5A9AE10234f8C1d879766930F2D82, attempted to normalize to 0xbdfe3ff5a9ae10234f8c1d879766930f2d82
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "sniper.py", line 889, in <module>
+  File "sniper.py", line 885, in run
+    s = open('./tokens.json')
+  File "sniper.py", line 603, in scan
+    try:
+KeyError: 'tokenA'
+INFO: 2021-12-30 15:26:57,667 *************************************************************************************
+INFO: 2021-12-30 15:26:57,667 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:26:57,668 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:26:57,668 *************************************************************************************
+ERROR: 2021-12-30 15:27:00,837 Unknown format 0xbdFe3fF5A9AE10234f8C1d879766930F2D82, attempted to normalize to 0xbdfe3ff5a9ae10234f8c1d879766930f2d82
+Traceback (most recent call last):
+  File "sniper.py", line 597, in scan
+    if filter_contract['token'] == Web3.toChecksumAddress(token['ADDRESS']):
+KeyError: 'token'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "sniper.py", line 889, in <module>
+    scan(tokens)
+  File "sniper.py", line 885, in run
+    while True:
+  File "sniper.py", line 603, in scan
+    try:
+  File "site-packages\web3\main.py", line 222, in toChecksumAddress
+  File "site-packages\eth_utils\address.py", line 110, in to_checksum_address
+  File "site-packages\eth_utils\address.py", line 63, in to_normalized_address
+ValueError: Unknown format 0xbdFe3fF5A9AE10234f8C1d879766930F2D82, attempted to normalize to 0xbdfe3ff5a9ae10234f8c1d879766930f2d82
+INFO: 2021-12-30 15:31:11,677 *************************************************************************************
+INFO: 2021-12-30 15:31:11,677 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:31:11,677 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:31:11,677 *************************************************************************************
+INFO: 2021-12-30 15:33:09,698 *************************************************************************************
+INFO: 2021-12-30 15:33:09,698 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:33:09,698 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:33:09,699 *************************************************************************************
+INFO: 2021-12-30 15:33:43,738 *************************************************************************************
+INFO: 2021-12-30 15:33:43,738 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:33:43,738 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:33:43,738 *************************************************************************************
+ERROR: 2021-12-30 15:33:45,430 'builtin_function_or_method' object has no attribute 'time'
+Traceback (most recent call last):
+  File "sniper.py", line 894, in <module>
+    run()
+  File "sniper.py", line 890, in run
+    scan(tokens)
+  File "sniper.py", line 564, in scan
+    start = time.time()
+AttributeError: 'builtin_function_or_method' object has no attribute 'time'
+INFO: 2021-12-30 15:34:03,975 *************************************************************************************
+INFO: 2021-12-30 15:34:03,975 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:34:03,975 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:34:03,975 *************************************************************************************
+INFO: 2021-12-30 15:36:16,162 *************************************************************************************
+INFO: 2021-12-30 15:36:16,162 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:36:16,163 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:36:16,163 *************************************************************************************
+INFO: 2021-12-30 15:42:16,987 *************************************************************************************
+INFO: 2021-12-30 15:42:16,987 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:42:16,987 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:42:16,987 *************************************************************************************
+INFO: 2021-12-30 15:43:07,797 *************************************************************************************
+INFO: 2021-12-30 15:43:07,797 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:43:07,798 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:43:07,798 *************************************************************************************
+INFO: 2021-12-30 15:43:34,848 *************************************************************************************
+INFO: 2021-12-30 15:43:34,848 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:43:34,848 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:43:34,848 *************************************************************************************
+ERROR: 2021-12-30 15:43:37,255 name 'contract' is not defined
+Traceback (most recent call last):
+  File "sniper.py", line 895, in <module>
+    run()
+  File "sniper.py", line 891, in run
+    scan(tokens)
+  File "sniper.py", line 580, in scan
+    decoded = contract.decode_function_input(input_bytes)
+NameError: name 'contract' is not defined
+INFO: 2021-12-30 15:44:41,363 *************************************************************************************
+INFO: 2021-12-30 15:44:41,363 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:44:41,363 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:44:41,363 *************************************************************************************
+INFO: 2021-12-30 15:45:44,773 *************************************************************************************
+INFO: 2021-12-30 15:45:44,773 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:45:44,773 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:45:44,773 *************************************************************************************
+INFO: 2021-12-30 15:47:33,190 *************************************************************************************
+INFO: 2021-12-30 15:47:33,191 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:47:33,191 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:47:33,191 *************************************************************************************
+ERROR: 2021-12-30 15:47:35,192 local variable 'start' referenced before assignment
+Traceback (most recent call last):
+  File "sniper.py", line 895, in <module>
+    run()
+  File "sniper.py", line 891, in run
+    scan(tokens)
+  File "sniper.py", line 566, in scan
+    print(timestamp(), "Scanning Mempool & Waiting for New Liquidity Add Event..... Current Block: ", pending_block['number'], ' ', time()-start)
+UnboundLocalError: local variable 'start' referenced before assignment
+INFO: 2021-12-30 15:48:09,232 *************************************************************************************
+INFO: 2021-12-30 15:48:09,232 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:48:09,232 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:48:09,232 *************************************************************************************
+INFO: 2021-12-30 15:49:12,072 *************************************************************************************
+INFO: 2021-12-30 15:49:12,072 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:49:12,072 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:49:12,072 *************************************************************************************
+INFO: 2021-12-30 15:51:01,955 *************************************************************************************
+INFO: 2021-12-30 15:51:01,955 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:51:01,955 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:51:01,955 *************************************************************************************
+INFO: 2021-12-30 15:51:41,501 *************************************************************************************
+INFO: 2021-12-30 15:51:41,501 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:51:41,501 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:51:41,501 *************************************************************************************
+INFO: 2021-12-30 15:55:49,341 *************************************************************************************
+INFO: 2021-12-30 15:55:49,343 For Help & To Learn More About how the bot works please visit our wiki here:
+INFO: 2021-12-30 15:55:49,343 https://cryptognome.gitbook.io/limitswap/
+INFO: 2021-12-30 15:55:49,343 *************************************************************************************
